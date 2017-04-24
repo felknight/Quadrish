@@ -1,0 +1,59 @@
+#obj/ftlzw.o obj/pcf.o obj/psaux.o obj/pfr.o obj/pshinter.o \
+#obj/psmodule.o obj/ftcache.o obj/autofit.o obj/bdf.o obj/cff.o obj/type1.o obj/type42.o obj/type1cid.o  obj/winfnt.o
+
+obj/truetype.o: $(FREETYPE_ROOT)src/truetype/truetype.c
+	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+obj/raster.o: $(FREETYPE_ROOT)src/raster/raster.c
+	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+obj/smooth.o: $(FREETYPE_ROOT)src/smooth/smooth.c
+	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+obj/ftgzip.o: $(FREETYPE_ROOT)src/gzip/ftgzip.c
+	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/ftlzw.o: $(FREETYPE_ROOT)src/lzw/ftlzw.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/pcf.o: $(FREETYPE_ROOT)src/pcf/pcf.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/psaux.o: $(FREETYPE_ROOT)src/psaux/psaux.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/pfr.o: $(FREETYPE_ROOT)src/pfr/pfr.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/pshinter.o: $(FREETYPE_ROOT)src/pshinter/pshinter.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/psmodule.o: $(FREETYPE_ROOT)src/psnames/psmodule.c 
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+obj/sfnt.o: $(FREETYPE_ROOT)src/sfnt/sfnt.c 
+	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/ftcache.o: $(FREETYPE_ROOT)src/cache/ftcache.c 
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/autofit.o: $(FREETYPE_ROOT)src/autofit/autofit.c 
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/bdf.o: $(FREETYPE_ROOT)src/bdf/bdf.c 
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/cff.o: $(FREETYPE_ROOT)src/cff/cff.c 
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/type1.o: $(FREETYPE_ROOT)src/type1/type1.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/type42.o: $(FREETYPE_ROOT)src/type42/type42.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/type1cid.o: $(FREETYPE_ROOT)src/cid/type1cid.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<
+
+#obj/winfnt.o: $(FREETYPE_ROOT)src/winfonts/winfnt.c
+#	$(C) $(CFLAGS) $(FREETYPE_FLAGS) -c -o $@ $<

@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>AI.cpp</in>
+      <in>Atlas.cpp</in>
+      <in>ColorManager.cpp</in>
+      <in>Engine.cpp</in>
+      <in>FloatingText.cpp</in>
+      <in>Font.cpp</in>
+      <in>FontManager.cpp</in>
+      <in>Image.cpp</in>
+      <in>PlatformEngine.cpp</in>
+      <in>Quad.cpp</in>
+      <in>QuadManager.cpp</in>
+      <in>QuadRandomBag.cpp</in>
+      <in>Quadris.cpp</in>
+      <in>StateStack.cpp</in>
+      <in>StringManager.cpp</in>
+      <in>_Android.cpp</in>
+      <in>_Win32.cpp</in>
+    </df>
+    <logicalFolder name="Quadris"
+                   displayName="Quadris"
+                   projectFiles="true"
+                   root="..">
+      <logicalFolder name="freetype" displayName="freetype" projectFiles="true">
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <logicalFolder name="base" displayName="base" projectFiles="true">
+            <itemPath>../freetype/src/base/basepic.c</itemPath>
+            <itemPath>../freetype/src/base/basepic.h</itemPath>
+            <itemPath>../freetype/src/base/ftadvanc.c</itemPath>
+            <itemPath>../freetype/src/base/ftbase.c</itemPath>
+            <itemPath>../freetype/src/base/ftbase.h</itemPath>
+            <itemPath>../freetype/src/base/ftbbox.c</itemPath>
+            <itemPath>../freetype/src/base/ftbitmap.c</itemPath>
+            <itemPath>../freetype/src/base/ftcalc.c</itemPath>
+            <itemPath>../freetype/src/base/ftdbgmem.c</itemPath>
+            <itemPath>../freetype/src/base/ftdebug.c</itemPath>
+            <itemPath>../freetype/src/base/ftfstype.c</itemPath>
+            <itemPath>../freetype/src/base/ftgasp.c</itemPath>
+            <itemPath>../freetype/src/base/ftgloadr.c</itemPath>
+            <itemPath>../freetype/src/base/ftglyph.c</itemPath>
+            <itemPath>../freetype/src/base/ftgxval.c</itemPath>
+            <itemPath>../freetype/src/base/ftinit.c</itemPath>
+            <itemPath>../freetype/src/base/ftlcdfil.c</itemPath>
+            <itemPath>../freetype/src/base/ftmm.c</itemPath>
+            <itemPath>../freetype/src/base/ftobjs.c</itemPath>
+            <itemPath>../freetype/src/base/ftotval.c</itemPath>
+            <itemPath>../freetype/src/base/ftoutln.c</itemPath>
+            <itemPath>../freetype/src/base/ftpatent.c</itemPath>
+            <itemPath>../freetype/src/base/ftpfr.c</itemPath>
+            <itemPath>../freetype/src/base/ftpic.c</itemPath>
+            <itemPath>../freetype/src/base/ftrfork.c</itemPath>
+            <itemPath>../freetype/src/base/ftsnames.c</itemPath>
+            <itemPath>../freetype/src/base/ftstream.c</itemPath>
+            <itemPath>../freetype/src/base/ftstroke.c</itemPath>
+            <itemPath>../freetype/src/base/ftsynth.c</itemPath>
+            <itemPath>../freetype/src/base/ftsystem.c</itemPath>
+            <itemPath>../freetype/src/base/fttrigon.c</itemPath>
+            <itemPath>../freetype/src/base/ftutil.c</itemPath>
+            <itemPath>../freetype/src/base/ftwinfnt.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="gzip" displayName="gzip" projectFiles="true">
+            <itemPath>../freetype/src/gzip/adler32.c</itemPath>
+            <itemPath>../freetype/src/gzip/ftgzip.c</itemPath>
+            <itemPath>../freetype/src/gzip/infblock.c</itemPath>
+            <itemPath>../freetype/src/gzip/infblock.h</itemPath>
+            <itemPath>../freetype/src/gzip/infcodes.c</itemPath>
+            <itemPath>../freetype/src/gzip/infcodes.h</itemPath>
+            <itemPath>../freetype/src/gzip/inffixed.h</itemPath>
+            <itemPath>../freetype/src/gzip/inflate.c</itemPath>
+            <itemPath>../freetype/src/gzip/inftrees.c</itemPath>
+            <itemPath>../freetype/src/gzip/inftrees.h</itemPath>
+            <itemPath>../freetype/src/gzip/infutil.c</itemPath>
+            <itemPath>../freetype/src/gzip/infutil.h</itemPath>
+            <itemPath>../freetype/src/gzip/zconf.h</itemPath>
+            <itemPath>../freetype/src/gzip/zlib.h</itemPath>
+            <itemPath>../freetype/src/gzip/zutil.c</itemPath>
+            <itemPath>../freetype/src/gzip/zutil.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="raster" displayName="raster" projectFiles="true">
+            <itemPath>../freetype/src/raster/ftraster.c</itemPath>
+            <itemPath>../freetype/src/raster/ftraster.h</itemPath>
+            <itemPath>../freetype/src/raster/ftrend1.c</itemPath>
+            <itemPath>../freetype/src/raster/ftrend1.h</itemPath>
+            <itemPath>../freetype/src/raster/raster.c</itemPath>
+            <itemPath>../freetype/src/raster/rasterrs.h</itemPath>
+            <itemPath>../freetype/src/raster/rastpic.c</itemPath>
+            <itemPath>../freetype/src/raster/rastpic.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="sfnt" displayName="sfnt" projectFiles="true">
+            <itemPath>../freetype/src/sfnt/pngshim.c</itemPath>
+            <itemPath>../freetype/src/sfnt/pngshim.h</itemPath>
+            <itemPath>../freetype/src/sfnt/sfdriver.c</itemPath>
+            <itemPath>../freetype/src/sfnt/sfdriver.h</itemPath>
+            <itemPath>../freetype/src/sfnt/sferrors.h</itemPath>
+            <itemPath>../freetype/src/sfnt/sfnt.c</itemPath>
+            <itemPath>../freetype/src/sfnt/sfntpic.c</itemPath>
+            <itemPath>../freetype/src/sfnt/sfntpic.h</itemPath>
+            <itemPath>../freetype/src/sfnt/sfobjs.c</itemPath>
+            <itemPath>../freetype/src/sfnt/sfobjs.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttbdf.c</itemPath>
+            <itemPath>../freetype/src/sfnt/ttbdf.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttcmap.c</itemPath>
+            <itemPath>../freetype/src/sfnt/ttcmap.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttcmapc.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttkern.c</itemPath>
+            <itemPath>../freetype/src/sfnt/ttkern.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttload.c</itemPath>
+            <itemPath>../freetype/src/sfnt/ttload.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttmtx.c</itemPath>
+            <itemPath>../freetype/src/sfnt/ttmtx.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttpost.c</itemPath>
+            <itemPath>../freetype/src/sfnt/ttpost.h</itemPath>
+            <itemPath>../freetype/src/sfnt/ttsbit.c</itemPath>
+            <itemPath>../freetype/src/sfnt/ttsbit.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="smooth" displayName="smooth" projectFiles="true">
+            <itemPath>../freetype/src/smooth/ftgrays.c</itemPath>
+            <itemPath>../freetype/src/smooth/ftgrays.h</itemPath>
+            <itemPath>../freetype/src/smooth/ftsmerrs.h</itemPath>
+            <itemPath>../freetype/src/smooth/ftsmooth.c</itemPath>
+            <itemPath>../freetype/src/smooth/ftsmooth.h</itemPath>
+            <itemPath>../freetype/src/smooth/ftspic.c</itemPath>
+            <itemPath>../freetype/src/smooth/ftspic.h</itemPath>
+            <itemPath>../freetype/src/smooth/smooth.c</itemPath>
+          </logicalFolder>
+          <logicalFolder name="truetype" displayName="truetype" projectFiles="true">
+            <itemPath>../freetype/src/truetype/truetype.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttdriver.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttdriver.h</itemPath>
+            <itemPath>../freetype/src/truetype/tterrors.h</itemPath>
+            <itemPath>../freetype/src/truetype/ttgload.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttgload.h</itemPath>
+            <itemPath>../freetype/src/truetype/ttgxvar.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttgxvar.h</itemPath>
+            <itemPath>../freetype/src/truetype/ttinterp.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttinterp.h</itemPath>
+            <itemPath>../freetype/src/truetype/ttobjs.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttobjs.h</itemPath>
+            <itemPath>../freetype/src/truetype/ttpic.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttpic.h</itemPath>
+            <itemPath>../freetype/src/truetype/ttpload.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttpload.h</itemPath>
+            <itemPath>../freetype/src/truetype/ttsubpix.c</itemPath>
+            <itemPath>../freetype/src/truetype/ttsubpix.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="Linux" displayName="Linux" projectFiles="true">
+        <itemPath>../Linux/LibLoader.cpp</itemPath>
+        <itemPath>../Linux/LibSymbols.h</itemPath>
+        <itemPath>../Linux/Window.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="lpng" displayName="lpng" projectFiles="true">
+        <itemPath>../lpng/example.c</itemPath>
+        <itemPath>../lpng/png.c</itemPath>
+        <itemPath>../lpng/png.h</itemPath>
+        <itemPath>../lpng/pngconf.h</itemPath>
+        <itemPath>../lpng/pngdebug.h</itemPath>
+        <itemPath>../lpng/pngerror.c</itemPath>
+        <itemPath>../lpng/pngget.c</itemPath>
+        <itemPath>../lpng/pnginfo.h</itemPath>
+        <itemPath>../lpng/pnglibconf.h</itemPath>
+        <itemPath>../lpng/pngmem.c</itemPath>
+        <itemPath>../lpng/pngpread.c</itemPath>
+        <itemPath>../lpng/pngpriv.h</itemPath>
+        <itemPath>../lpng/pngread.c</itemPath>
+        <itemPath>../lpng/pngrio.c</itemPath>
+        <itemPath>../lpng/pngrtran.c</itemPath>
+        <itemPath>../lpng/pngrutil.c</itemPath>
+        <itemPath>../lpng/pngset.c</itemPath>
+        <itemPath>../lpng/pngstruct.h</itemPath>
+        <itemPath>../lpng/pngtrans.c</itemPath>
+        <itemPath>../lpng/pngwio.c</itemPath>
+        <itemPath>../lpng/pngwrite.c</itemPath>
+        <itemPath>../lpng/pngwtran.c</itemPath>
+        <itemPath>../lpng/pngwutil.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="zlib" displayName="zlib" projectFiles="true">
+        <itemPath>../zlib/adler32.c</itemPath>
+        <itemPath>../zlib/compress.c</itemPath>
+        <itemPath>../zlib/crc32.c</itemPath>
+        <itemPath>../zlib/crc32.h</itemPath>
+        <itemPath>../zlib/deflate.c</itemPath>
+        <itemPath>../zlib/deflate.h</itemPath>
+        <itemPath>../zlib/gzclose.c</itemPath>
+        <itemPath>../zlib/gzguts.h</itemPath>
+        <itemPath>../zlib/gzlib.c</itemPath>
+        <itemPath>../zlib/gzread.c</itemPath>
+        <itemPath>../zlib/gzwrite.c</itemPath>
+        <itemPath>../zlib/infback.c</itemPath>
+        <itemPath>../zlib/inffast.c</itemPath>
+        <itemPath>../zlib/inffast.h</itemPath>
+        <itemPath>../zlib/inffixed.h</itemPath>
+        <itemPath>../zlib/inflate.c</itemPath>
+        <itemPath>../zlib/inflate.h</itemPath>
+        <itemPath>../zlib/inftrees.c</itemPath>
+        <itemPath>../zlib/inftrees.h</itemPath>
+        <itemPath>../zlib/trees.c</itemPath>
+        <itemPath>../zlib/trees.h</itemPath>
+        <itemPath>../zlib/uncompr.c</itemPath>
+        <itemPath>../zlib/zconf.h</itemPath>
+        <itemPath>../zlib/zlib.h</itemPath>
+        <itemPath>../zlib/zutil.c</itemPath>
+        <itemPath>../zlib/zutil.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>../Android/makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>../Android/makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fpic -g"/>
+        <element flagsID="1" commonFlags="-fpic -std=c++11"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../Android</buildCommandWorkingDir>
+          <buildCommand>${MAKE} debug</buildCommand>
+          <cleanCommand>${MAKE} clean</cleanCommand>
+          <executablePath>../Android/linuxgame</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>../Android/jni</pElem>
+              <pElem>../glm</pElem>
+              <pElem>../lpng</pElem>
+              <pElem>../freetype/include</pElem>
+              <pElem>/usr/local/include/linux</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>ANDROID</Elem>
+              <Elem>FALSE_ANDROID</Elem>
+              <Elem>_DEBUG</Elem>
+              <Elem>_LOGGING</Elem>
+            </preprocessorList>
+          </cTool>
+          <ccTool>
+            <incDir>
+              <pElem>../Android/jni</pElem>
+              <pElem>../glm</pElem>
+              <pElem>../lpng</pElem>
+              <pElem>../freetype/include</pElem>
+              <pElem>/usr/local/include/linux</pElem>
+              <pElem>../Android</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>ANDROID</Elem>
+              <Elem>FALSE_ANDROID</Elem>
+              <Elem>_DEBUG</Elem>
+              <Elem>_LOGGING</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="../Linux/LibLoader.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="../Linux/Window.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="../freetype/src/base/basepic.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftadvanc.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftbase.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftbbox.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftbitmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftcalc.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftdbgmem.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftdebug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftfstype.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftgasp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftgloadr.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftglyph.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftgxval.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftinit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftlcdfil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftmm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftobjs.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftotval.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftoutln.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftpatent.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftpfr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftpic.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftrfork.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftsnames.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftstream.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftstroke.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftsynth.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftsystem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/fttrigon.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftutil.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/base/ftwinfnt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/adler32.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/ftgzip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/infblock.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/infcodes.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/inflate.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/inftrees.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/infutil.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/gzip/zutil.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/raster/ftraster.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/raster/ftrend1.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/raster/raster.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/raster/rastpic.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/pngshim.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/sfdriver.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/sfnt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/sfntpic.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/sfobjs.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/ttbdf.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/ttcmap.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/ttkern.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/ttload.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/ttmtx.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/ttpost.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/sfnt/ttsbit.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/smooth/ftgrays.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/smooth/ftsmooth.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/smooth/ftspic.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/smooth/smooth.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/truetype.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttdriver.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttgload.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttgxvar.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttinterp.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttobjs.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttpic.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttpload.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../freetype/src/truetype/ttsubpix.c" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="../lpng/example.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/png.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngerror.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngget.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngmem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngpread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngrio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngrtran.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngrutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngset.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngtrans.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngwio.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngwrite.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngwtran.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../lpng/pngwutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/adler32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/compress.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/crc32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/deflate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/gzclose.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/gzlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/gzread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/gzwrite.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/infback.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/inffast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/inflate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/inftrees.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/trees.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/uncompr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../zlib/zutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="AI.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="Atlas.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="ColorManager.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="Engine.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="FloatingText.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="Font.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="FontManager.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="Image.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="PlatformEngine.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="Quad.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="QuadManager.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="QuadRandomBag.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="Quadris.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="StateStack.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="StringManager.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="_Android.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <item path="_Win32.cpp" ex="false" tool="1" flavor2="8">
+      </item>
+      <folder path="Quadris/freetype">
+        <cTool>
+          <incDir>
+            <pElem>../freetype</pElem>
+            <pElem>../Android</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>FT2_BUILD_LIBRARY</Elem>
+            <Elem>NDEBUG</Elem>
+            <Elem>_LIB</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="Quadris/lpng">
+        <cTool>
+          <incDir>
+            <pElem>../Android</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="Quadris/zlib">
+        <cTool>
+          <incDir>
+            <pElem>../Android</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>

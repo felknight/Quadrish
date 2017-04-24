@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{77B20FA8-5883-4617-824E-51F221AC4F6F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Quadris</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_LOGGING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>...\glfw\include\;..\glew\include;..\rapidxml;..\glm;..\lpng;..\zlib;..\freetype\include</AdditionalIncludeDirectories>
+      <EnablePREfast>false</EnablePREfast>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\glfw\build\src\build\src\Debug;..\glew\lib\Debug\Win32;$(SolutionDir)$(Configuration)\;$(SolutionDir)\freetype\objs\vc2010\Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;glew32sd.lib;opengl32.lib;LibPNG.lib;Zlib.lib;freetype255d.lib;Kernel32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <FixedBaseAddress>true</FixedBaseAddress>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>...\glfw\include\;..\glew\include;..\rapidxml;..\glm;..\lpng;..\zlib;..\freetype\include</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ExceptionHandling>false</ExceptionHandling>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <CallingConvention>Cdecl</CallingConvention>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\glfw\build\src\build\src\Release;..\glew\lib\Release\Win32;$(SolutionDir)$(Configuration)\;$(SolutionDir)\freetype\objs\vc2010\Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glfw3.lib;glew32s.lib;opengl32.lib;LibPNG.lib;Zlib.lib;freetype255.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AchievmentManager.h" />
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="Atlas.h" />
+    <ClInclude Include="ButtonUI.h" />
+    <ClInclude Include="ColorManager.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="FixedPipeline.h" />
+    <ClInclude Include="FloatingText.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="GameConstants.hpp" />
+    <ClInclude Include="gason.h" />
+    <ClInclude Include="GeometryPointer.hpp" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="LevelManager.h" />
+    <ClInclude Include="Math.hpp" />
+    <ClInclude Include="Model2D.h" />
+    <ClInclude Include="PowerManager.h" />
+    <ClInclude Include="Quad.h" />
+    <ClInclude Include="QuadManager.h" />
+    <ClInclude Include="QuadRandomBag.h" />
+    <ClInclude Include="Quadris.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="SaveManager.h" />
+    <ClInclude Include="SecureMemory.h" />
+    <ClInclude Include="SimpleGeometry.hpp" />
+    <ClInclude Include="StateStack.h" />
+    <ClInclude Include="StoreItemManager.h" />
+    <ClInclude Include="StringManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AchievementManager.cpp" />
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Atlas.cpp" />
+    <ClCompile Include="ButtonUI.cpp" />
+    <ClCompile Include="ColorManager.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="FixedPipeline.cpp" />
+    <ClCompile Include="FloatingText.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="gason.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Model2D.cpp" />
+    <ClCompile Include="PlatformEngine.cpp" />
+    <ClCompile Include="PowerManager.cpp" />
+    <ClCompile Include="QuadManager.cpp" />
+    <ClCompile Include="QuadRandomBag.cpp" />
+    <ClCompile Include="Quadris.cpp" />
+    <ClCompile Include="SaveManager.cpp" />
+    <ClCompile Include="SecureMemory.cpp" />
+    <ClCompile Include="StateStack.cpp" />
+    <ClCompile Include="StoreItemManager.cpp" />
+    <ClCompile Include="StringManager.cpp" />
+    <ClCompile Include="_Android.cpp" />
+    <ClCompile Include="_Win32.cpp" />
+    <ClCompile Include="Quad.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

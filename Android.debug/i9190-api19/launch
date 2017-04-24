@@ -1,0 +1,1 @@
+run-as com.saldabi.quadris ./gdbserver :8853 --attach $1

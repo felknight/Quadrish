@@ -1,0 +1,24 @@
+﻿Compilación iniciada a las 10/06/2015 15:10:04.
+     1>Proyecto "C:\Quadris\QudrisTests\QudrisTests.vcxproj" en el nodo 4 (Rebuild destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _UNITTEST /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\Quadris\AI.cpp ..\Quadris\Quad.cpp unittest1.cpp
+         unittest1.cpp
+         Quad.cpp
+         AI.cpp
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Quadris\Debug\QudrisTests.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Quadris\Debug\QudrisTests.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Quadris\Debug\QudrisTests.lib" /MACHINE:X86 /DLL Debug\AI.obj
+         Debug\Quad.obj
+         Debug\unittest1.obj
+            Creando biblioteca C:\Quadris\Debug\QudrisTests.lib y objeto C:\Quadris\Debug\QudrisTests.exp
+     1>AI.obj : error LNK2019: símbolo externo "public: __thiscall QuadRandomBag::QuadRandomBag(class std::mersenne_twister_engine<unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> &,class std::uniform_int_distribution<unsigned int> &)" (??0QuadRandomBag@@QAE@AAV?$mersenne_twister_engine@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$0PPPPPPPP@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@$0GMAHIJGF@@std@@AAV?$uniform_int_distribution@I@2@@Z) sin resolver al que se hace referencia en la función "public: __thiscall AI::AI(void)" (??0AI@@QAE@XZ)
+     1>AI.obj : error LNK2019: símbolo externo "public: __thiscall QuadRandomBag::~QuadRandomBag(void)" (??1QuadRandomBag@@QAE@XZ) sin resolver al que se hace referencia en la función __unwindfunclet$??0AI@@QAE@XZ$0
+     1>AI.obj : error LNK2019: símbolo externo "public: enum QuadKind __thiscall QuadRandomBag::Next(void)" (?Next@QuadRandomBag@@QAE?AW4QuadKind@@XZ) sin resolver al que se hace referencia en la función "private: void __thiscall AI::MainThread(void)" (?MainThread@AI@@AAEXXZ)
+     1>AI.obj : error LNK2019: símbolo externo "public: void __thiscall QuadRandomBag::Clear(void)" (?Clear@QuadRandomBag@@QAEXXZ) sin resolver al que se hace referencia en la función "private: void __thiscall AI::MainThread(void)" (?MainThread@AI@@AAEXXZ)
+     1>AI.obj : error LNK2001: símbolo externo "struct QuadSquare const * const g_renderedMatrix" (?g_renderedMatrix@@3PBUQuadSquare@@B) sin resolver
+     1>C:\Quadris\Debug\QudrisTests.dll : fatal error LNK1120: 5 externos sin resolver
+     1>Compilación del proyecto terminada "C:\Quadris\QudrisTests\QudrisTests.vcxproj" (Rebuild destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:04.38

@@ -1,0 +1,3 @@
+set solib-search-path C:\Quadris\Android;C:\Quadris\Android.debug\i9190-api19
+source C:/ndk/prebuilt/common/gdb/common.setup
+directory C:\\Quadris\\Quadris C:/ndk/platforms/android-21/arch-arm/usr/include C:/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include C:/ndk/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include C:/ndk/sources/cxx-stl/gnu-libstdc++/4.8/include/backward

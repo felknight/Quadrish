@@ -1,0 +1,37 @@
+﻿Compilación iniciada a las 10/06/2015 15:10:01.
+     1>Proyecto "C:\Quadris\glfw\build\src\glfw.vcxproj" en el nodo 4 (Rebuild destinos).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1491,5): warning : The referenced project 'C:/Users/Felknight/Documents/Visual Studio 2013/Projects/Quadris/glfw/build/ZERO_CHECK.vcxproj' does not exist.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Quadris\glfw\build\src\ /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _GLFW_USE_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"glfw.dir\Debug\\" /Fd"glfw.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\context.c ..\..\src\init.c ..\..\src\input.c ..\..\src\monitor.c ..\..\src\window.c ..\..\src\win32_init.c ..\..\src\win32_monitor.c ..\..\src\win32_time.c ..\..\src\win32_tls.c ..\..\src\win32_window.c ..\..\src\winmm_joystick.c ..\..\src\wgl_context.c
+         context.c
+         init.c
+         input.c
+         monitor.c
+         window.c
+         win32_init.c
+         win32_monitor.c
+         win32_time.c
+         win32_tls.c
+         win32_window.c
+         winmm_joystick.c
+         wgl_context.c
+         Generando código...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"build\src\Debug\glfw3.lib" /NOLOGO glfw.dir\Debug\context.obj
+         glfw.dir\Debug\init.obj
+         glfw.dir\Debug\input.obj
+         glfw.dir\Debug\monitor.obj
+         glfw.dir\Debug\window.obj
+         glfw.dir\Debug\win32_init.obj
+         glfw.dir\Debug\win32_monitor.obj
+         glfw.dir\Debug\win32_time.obj
+         glfw.dir\Debug\win32_tls.obj
+         glfw.dir\Debug\win32_window.obj
+         glfw.dir\Debug\winmm_joystick.obj
+         glfw.dir\Debug\wgl_context.obj
+         glfw.vcxproj -> C:\Quadris\glfw\build\src\build\src\Debug\glfw3.lib
+     1>Compilación del proyecto terminada "C:\Quadris\glfw\build\src\glfw.vcxproj" (Rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:03.37

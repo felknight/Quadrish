@@ -1,0 +1,21 @@
+﻿Compilación iniciada a las 05/03/2015 14:12:34.
+     1>Proyecto "C:\Quadris\QudrisTests\QudrisTests.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _UNITTEST /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt ..\Quadris\AI.cpp ..\Quadris\Quad.cpp unittest1.cpp
+         AI.cpp
+         Quad.cpp
+         unittest1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Quadris\Release\QudrisTests.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Quadris\Release\QudrisTests.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Quadris\Release\QudrisTests.lib" /MACHINE:X86 /SAFESEH /DLL Release\AI.obj
+         Release\Quad.obj
+         Release\unittest1.obj
+     1>LINK : warning LNK4075: se omite '/INCREMENTAL' debido a la especificación '/LTCG'
+            Creando biblioteca C:\Quadris\Release\QudrisTests.lib y objeto C:\Quadris\Release\QudrisTests.exp
+         Generando código
+         Generación de código finalizada
+         QudrisTests.vcxproj -> C:\Quadris\Release\QudrisTests.dll
+     1>Compilación del proyecto terminada "C:\Quadris\QudrisTests\QudrisTests.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.60

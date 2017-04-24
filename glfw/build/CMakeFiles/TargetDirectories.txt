@@ -1,0 +1,3 @@
+C:/Users/Felknight/Documents/Visual Studio 2013/Projects/Quadris/glfw/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Felknight/Documents/Visual Studio 2013/Projects/Quadris/glfw/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Felknight/Documents/Visual Studio 2013/Projects/Quadris/glfw/build/src/CMakeFiles/glfw.dir

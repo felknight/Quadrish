@@ -1,0 +1,44 @@
+﻿Compilación iniciada a las 10/06/2015 15:10:04.
+     1>Proyecto "C:\Quadris\lpng\LibPNG\LibPNG.vcxproj" en el nodo 2 (Rebuild destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Quadris\zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\example.c ..\png.c ..\pngerror.c ..\pngget.c ..\pngmem.c ..\pngpread.c ..\pngread.c ..\pngrio.c ..\pngrtran.c ..\pngrutil.c ..\pngset.c ..\pngtrans.c ..\pngwio.c ..\pngwrite.c ..\pngwtran.c ..\pngwutil.c
+         pngwutil.c
+         pngwtran.c
+         pngwrite.c
+         pngwio.c
+         pngtrans.c
+         pngset.c
+         pngrutil.c
+         pngrtran.c
+         pngrio.c
+         pngread.c
+         pngpread.c
+         pngmem.c
+         pngget.c
+         pngerror.c
+         png.c
+         example.c
+         Generando código...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Quadris\Debug\LibPNG.lib" /NOLOGO Debug\example.obj
+         Debug\png.obj
+         Debug\pngerror.obj
+         Debug\pngget.obj
+         Debug\pngmem.obj
+         Debug\pngpread.obj
+         Debug\pngread.obj
+         Debug\pngrio.obj
+         Debug\pngrtran.obj
+         Debug\pngrutil.obj
+         Debug\pngset.obj
+         Debug\pngtrans.obj
+         Debug\pngwio.obj
+         Debug\pngwrite.obj
+         Debug\pngwtran.obj
+         Debug\pngwutil.obj
+         LibPNG.vcxproj -> C:\Quadris\Debug\LibPNG.lib
+     1>Compilación del proyecto terminada "C:\Quadris\lpng\LibPNG\LibPNG.vcxproj" (Rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.88

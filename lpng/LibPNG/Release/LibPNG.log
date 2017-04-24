@@ -1,0 +1,25 @@
+﻿Compilación iniciada a las 05/03/2015 14:11:43.
+     1>Proyecto "C:\Quadris\lpng\LibPNG\LibPNG.vcxproj" en el nodo 2 (Build destinos).
+     1>Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Quadris\Release\LibPNG.lib" /NOLOGO /LTCG Release\example.obj
+         Release\png.obj
+         Release\pngerror.obj
+         Release\pngget.obj
+         Release\pngmem.obj
+         Release\pngpread.obj
+         Release\pngread.obj
+         Release\pngrio.obj
+         Release\pngrtran.obj
+         Release\pngrutil.obj
+         Release\pngset.obj
+         Release\pngtrans.obj
+         Release\pngwio.obj
+         Release\pngwrite.obj
+         Release\pngwtran.obj
+         Release\pngwutil.obj
+         LibPNG.vcxproj -> C:\Quadris\Release\LibPNG.lib
+     1>Compilación del proyecto terminada "C:\Quadris\lpng\LibPNG\LibPNG.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.43

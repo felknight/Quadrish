@@ -1,0 +1,16 @@
+﻿Compilación iniciada a las 10/06/2015 15:10:01.
+     1>Proyecto "C:\Quadris\glew\build\vc12\glew_static.vcxproj" en el nodo 3 (Rebuild destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D WIN32_LEAN_AND_MEAN /D GLEW_STATIC /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"tmp\glew_static\Debug\Win32\\" /Fd"tmp\glew_static\Debug\Win32\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\glew.c
+         glew.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D GLEW_STATIC /l"0x0409" /nologo /fo"tmp\glew_static\Debug\Win32\glew.res" ..\glew.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\Debug\Win32\glew32sd.lib" /NOLOGO /MACHINE:X86 tmp\glew_static\Debug\Win32\glew.res
+         tmp\glew_static\Debug\Win32\glew.obj
+         glew_static.vcxproj -> C:\Quadris\glew\build\vc12\..\..\lib\Debug\Win32\glew32sd.lib
+     1>Compilación del proyecto terminada "C:\Quadris\glew\build\vc12\glew_static.vcxproj" (Rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:03.88

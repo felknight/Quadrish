@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{50902569-2141-427B-99C4-EA3751865C01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1} = {2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1}
+		{A3C857EE-F63C-4213-9049-88CB1DC202F5} = {A3C857EE-F63C-4213-9049-88CB1DC202F5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glfw", "src\glfw.vcxproj", "{A3C857EE-F63C-4213-9049-88CB1DC202F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1} = {2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{5DAACE89-5586-46D6-B7E9-9A5299A58DFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GLFW3", "GLFW3", "{BB76994D-9A07-42BD-AB1C-3AC87F30FEFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50902569-2141-427B-99C4-EA3751865C01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50902569-2141-427B-99C4-EA3751865C01}.Release|Win32.ActiveCfg = Release|Win32
+		{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1}.Debug|Win32.Build.0 = Debug|Win32
+		{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1}.Release|Win32.ActiveCfg = Release|Win32
+		{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1}.Release|Win32.Build.0 = Release|Win32
+		{A3C857EE-F63C-4213-9049-88CB1DC202F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3C857EE-F63C-4213-9049-88CB1DC202F5}.Debug|Win32.Build.0 = Debug|Win32
+		{A3C857EE-F63C-4213-9049-88CB1DC202F5}.Release|Win32.ActiveCfg = Release|Win32
+		{A3C857EE-F63C-4213-9049-88CB1DC202F5}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BB76A6D-9AAA-401A-ACF1-95CD0A1B76B1} = {5DAACE89-5586-46D6-B7E9-9A5299A58DFB}
+		{A3C857EE-F63C-4213-9049-88CB1DC202F5} = {BB76994D-9A07-42BD-AB1C-3AC87F30FEFB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

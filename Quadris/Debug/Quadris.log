@@ -1,0 +1,45 @@
+﻿Compilación iniciada a las 13/06/2015 16:04:45.
+     1>Proyecto "C:\Quadris\Quadris\Quadris.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I...\glfw\include\ /I..\glew\include /I..\rapidxml /I..\glm /I..\lpng /I..\zlib /I..\freetype\include /IC:\Quadris\glfw\include /ZI /nologo /W3 /WX /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _LOGGING /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PowerManager.cpp Quadris.cpp SaveManager.cpp StoreItemManager.cpp _Win32.cpp
+         StoreItemManager.cpp
+         Quadris.cpp
+         Generando código...
+         Compilando...
+         _Win32.cpp
+         SaveManager.cpp
+         PowerManager.cpp
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Quadris\Debug\Quadris.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\glfw\build\src\build\src\Debug /LIBPATH:..\glew\lib\Debug\Win32 /LIBPATH:C:\Quadris\Debug\ /LIBPATH:C:\Quadris\\freetype\objs\vc2010\Win32 glfw3.lib glew32sd.lib opengl32.lib LibPNG.lib Zlib.lib freetype255d.lib Kernel32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Quadris\Debug\Quadris.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /FIXED /NXCOMPAT /IMPLIB:"C:\Quadris\Debug\Quadris.lib" /MACHINE:X86 Debug\AchievementManager.obj
+         Debug\AI.obj
+         Debug\Atlas.obj
+         Debug\ButtonUI.obj
+         Debug\ColorManager.obj
+         Debug\Engine.obj
+         Debug\FixedPipeline.obj
+         Debug\FloatingText.obj
+         Debug\Font.obj
+         Debug\FontManager.obj
+         Debug\gason.obj
+         Debug\Image.obj
+         Debug\Model2D.obj
+         Debug\PlatformEngine.obj
+         Debug\PowerManager.obj
+         Debug\QuadManager.obj
+         Debug\QuadRandomBag.obj
+         Debug\Quadris.obj
+         Debug\SaveManager.obj
+         Debug\SecureMemory.obj
+         Debug\StateStack.obj
+         Debug\StoreItemManager.obj
+         Debug\StringManager.obj
+         Debug\_Android.obj
+         Debug\_Win32.obj
+         Debug\Quad.obj
+         Quadris.vcxproj -> C:\Quadris\Debug\Quadris.exe
+     1>Compilación del proyecto terminada "C:\Quadris\Quadris\Quadris.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:07.13
